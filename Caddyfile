@@ -1,0 +1,14 @@
+:2000 {
+    bind 0.0.0.0
+    gzip
+    root .
+    
+    git {
+        repo ssh://git@github.com:harvested-io/www_harvested.io.git
+        branch master
+        hook /webhook "zU3687$aJEb6"
+        key ~/.ssh/id_rsa
+        path . 
+    }
+}
+
