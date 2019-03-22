@@ -1383,6 +1383,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #1bbd47;
+  color: #000000;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #1bbd47;
+}
 .cid-rk35vDVFLb .navbar {
   background: #ffffff;
   transition: none;
@@ -1618,6 +1629,10 @@ body {
 .cid-rk35vDVFLb .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-rk35vDVFLb .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-rk35vDVFLb .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-rk35vDVFLb .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rk35vDVFLb .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1712,6 +1727,10 @@ body {
   .cid-rk35vDVFLb .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rk35vDVFLb .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-rk35vDVFLb .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-rk35vDVFLb .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-rk35vDVFLb .navbar-collapse.collapsing .navbar-buttons,
   .cid-rk35vDVFLb .navbar-collapse.show .navbar-buttons {
@@ -2485,6 +2504,10 @@ body {
 .cid-rkvmrJHB6T .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
+.cid-rkvmrJHB6T .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+.cid-rkvmrJHB6T .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
+  margin-bottom: 1rem;
+}
 .cid-rkvmrJHB6T .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-rkvmrJHB6T .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -2579,6 +2602,10 @@ body {
   .cid-rkvmrJHB6T .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-rkvmrJHB6T .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
+  }
+  .cid-rkvmrJHB6T .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
+  .cid-rkvmrJHB6T .navbar-collapse.show .navbar-nav .nav-item:last-child {
+    margin-bottom: 1rem;
   }
   .cid-rkvmrJHB6T .navbar-collapse.collapsing .navbar-buttons,
   .cid-rkvmrJHB6T .navbar-collapse.show .navbar-buttons {
