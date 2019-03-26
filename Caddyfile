@@ -2,7 +2,7 @@
     bind 0.0.0.0
     gzip
     root .
-    basicauth / admin TFF007
+    basicauth / admin TFT007
     git {
         repo ssh://git@github.com:harvested-io/www_harvested.io.git
         branch master
