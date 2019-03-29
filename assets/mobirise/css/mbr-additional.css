@@ -1383,6 +1383,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #1bbd47;
+  color: #000000;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #1bbd47;
+}
 .cid-rk35vDVFLb .navbar {
   background: #ffffff;
   transition: none;
@@ -2182,6 +2193,11 @@ body {
 }
 .cid-rk7QYPjp62 H2 {
   color: #1bbd47;
+}
+.cid-rlQ561Y0IS {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
 .cid-rkuU4ATrUa {
   padding-top: 45px;
