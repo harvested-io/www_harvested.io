@@ -2194,11 +2194,6 @@ body {
 .cid-rk7QYPjp62 H2 {
   color: #1bbd47;
 }
-.cid-rlQ561Y0IS {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
-}
 .cid-rkuU4ATrUa {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -2265,6 +2260,11 @@ body {
 }
 .cid-rkuU4ATrUa .copyright > p {
   text-align: left;
+}
+.cid-rlQ561Y0IS {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
 .cid-rkvmrJHB6T .navbar {
   background: #ffffff;
