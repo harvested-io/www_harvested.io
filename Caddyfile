@@ -4,7 +4,7 @@
     root .
     basicauth / admin TFT007
     git {
-        repo ssh://git@github.com:harvested-io/www_harvested.io.git
+        repo https://github.com/harvested-io/www_harvested.io.git
         branch master
         hook /webhook "zU3687$aJEb6"
         key ~/.ssh/id_rsa
